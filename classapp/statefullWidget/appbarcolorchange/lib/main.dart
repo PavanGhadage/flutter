@@ -21,14 +21,14 @@ class _ToggleColorState extends State {
         appBar:AppBar(
           title: const Text("togglecolor"),
           centerTitle: true,
-          backgroundColor: colorchange ?Colors.blue:Colors.red,
+          backgroundColor:colorchange?Colors.amber: Colors.blue,
 
         ),
         body: Center(
           child: Container(
             height: 200,
             width: 200,
-          color: colorchange?Colors.orange:Colors.amber,  
+          color: Colors.amber,  
           ),
         ),
         floatingActionButton: FloatingActionButton(
@@ -52,3 +52,4 @@ class _ToggleColorState extends State {
 }
   
   
+
