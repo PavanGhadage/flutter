@@ -786,13 +786,13 @@ class _MyAppstate extends State{
         ),),
         
         backgroundColor: Colors.black,
-        actions: [
-         const  Icon(Icons.search,
+        actions: const [
+         Icon(Icons.search,
          color: Colors.white,
          size: 35,
          ),
-         const  SizedBox(width: 10,),
-         const  Icon(Icons.menu,
+         SizedBox(width: 10,),
+         Icon(Icons.menu,
          color: Colors.white,
          size: 35,
          )

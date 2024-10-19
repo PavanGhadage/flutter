@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -23,7 +24,7 @@ class Travel extends StatelessWidget{
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Container(
+            SizedBox(
               width: MediaQuery.of(context).size.width,
               height: 60,
               child :Row(
@@ -440,7 +441,7 @@ class Travel extends StatelessWidget{
               Spacer(),
               Icon(Icons.star,
               color: Color.fromRGBO(228, 161, 2, 1),),
-              const Text("4.6",
+             Text("4.6",
               style: TextStyle(
                           fontSize: 14,
                           fontWeight: FontWeight.w500,
